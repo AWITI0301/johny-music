@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../Styles/MainContainer.css";
 import { FaUsers } from "react-icons/fa";
-// import { AudioList } from "./AudioList";
+import { AudioList } from "./AudioList";
 import { Banner } from "./Banner";
 
 function MainContainer() {
@@ -47,7 +47,7 @@ function MainContainer() {
         </p>
       </div>
 
-      {/* <AudioList /> */}
+      <AudioList />
     </div>
   );
 }
