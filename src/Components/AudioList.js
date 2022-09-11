@@ -20,3 +20,19 @@ useEffect(() => {
 
     allSongs.forEach((n) => n.addEventListener("click", changeActive));
   }, []);
+
+  const changeFavourite = (id) => {
+    Songs.forEach((song) => {
+      if (song.id == id) {
+        song.favourite = !song.favourite;
+      }
+    });
+
+    setSongs([...songs]);
+  };
+
+  const setMainSong = (songSrc, imgSrc) => {
+    setSong(songSrc);
+    setImage(imgSrc);
+    setAuto(true);
+  };
