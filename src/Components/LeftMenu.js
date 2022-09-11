@@ -4,8 +4,8 @@ import { FaSpotify, FaEllipsisH } from "react-icons/fa";
 import { BiSearchAlt } from "react-icons/bi";
 import { Menu } from "./Menu";
 import { MenuList } from "./MenuList";
-// import { MenuPlayList } from "./MenuPlayList";
-// import TrackList from "./TrackList";
+import { MenuPlayList } from "./MenuPlayList";
+import TrackList from "./TrackList";
 function LeftMenu() {
   return (
     <div className="leftMenu">
@@ -32,9 +32,9 @@ function LeftMenu() {
 
       <Menu title={"Menu"} listObject={MenuList} />
 
-      {/* <MenuPlayList /> */}
+      <MenuPlayList />
 
-      {/* <TrackList trackName={"Take On Me"} artistName={"A-ha"} /> */}
+      <TrackList trackName={"Take On Me"} artistName={"A-ha"} />
     </div>
   );
 }
