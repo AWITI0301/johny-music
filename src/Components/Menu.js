@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../styles/LeftMenu.css";
+import "../Styles/LeftMenu.css";
 
 function Menu({ title, listObject }) {
   useEffect(() => {
