@@ -10,3 +10,13 @@ function AudioList() {
     const [img, setImage] = useState(songs[0].imgSrc);
     const [auto, setAuto] = useState(false);
 }
+
+useEffect(() => {
+    const allSongs = document.querySelectorAll(".songs");
+    function changeActive() {
+      allSongs.forEach((n) => n.classList.remove("active"));
+      this.classList.add("active");
+    }
+
+    allSongs.forEach((n) => n.addEventListener("click", changeActive));
+  }, []);
