@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "../Styles/LeftMenu.css";
 
+
+
 function Menu({ title, listObject }) {
   useEffect(() => {
     const allLi = document

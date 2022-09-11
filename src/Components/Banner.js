@@ -2,6 +2,8 @@ import React from "react";
 import artist from "../img/artist.jpg";
 import check from "../img/check.png";
 import { FaEllipsisH, FaHeadphones, FaCheck } from "react-icons/fa";
+
+
 function Banner() {
   return (
     <div className="Banner">

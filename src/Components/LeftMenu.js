@@ -6,6 +6,8 @@ import { Menu } from "./Menu";
 import { MenuList } from "./MenuList";
 import { MenuPlayList } from "./MenuPlayList";
 import TrackList from "./TrackList";
+
+
 function LeftMenu() {
   return (
     <div className="leftMenu">
@@ -15,7 +17,7 @@ function LeftMenu() {
             <FaSpotify />
           </i>
 
-          <h2>Johny-Music</h2>
+          <h2>Spotify</h2>
         </div>
 
         <i>
