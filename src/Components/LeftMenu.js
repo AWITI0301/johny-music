@@ -17,7 +17,7 @@ function LeftMenu() {
             <FaSpotify />
           </i>
 
-          <h2>Spotify</h2>
+          <h2>Johny-Music</h2>
         </div>
 
         <i>
